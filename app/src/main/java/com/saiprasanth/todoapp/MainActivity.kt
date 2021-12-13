@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         listView.setOnItemClickListener { adapterView, view, i, l ->
-            android.widget.Toast.makeText(this, "You Selected the item --> "+itemlist.get(i), android.widget.Toast.LENGTH_SHORT).show()
+            android.widget.Toast.makeText(this, "You Selected the item "+itemlist.get(i), android.widget.Toast.LENGTH_SHORT).show()
         }
 
         delete.setOnClickListener {

@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="10dp"
-        android:text="To Do List Application (TM)"
+        android:text="Note Application"
         android:textColor="@color/black"
         android:textSize="26dp" />
     <EditText
@@ -57,7 +57,7 @@
         android:gravity="center"
         android:padding="10dp"
         android:layout_below="@id/linearLayout1"
-        android:text="My To Do List"
+        android:text="My List"
         android:textSize="20dp"
         android:textColor="@color/black" />
 
